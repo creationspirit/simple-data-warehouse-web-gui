@@ -1,0 +1,10 @@
+{
+    "development": {
+        "PORT": 3004, -- not 3000! reserved for react app
+        "user": "sa",
+        "password": "<somepassword>",
+        "server": "192.168.0.13",
+        "dbport": 1433,
+        "database": "<databasename>"
+    }
+}

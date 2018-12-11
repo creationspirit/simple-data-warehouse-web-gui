@@ -1,0 +1,44 @@
+{
+  "name": "dw-gui",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "codemirror": "^5.42.0",
+    "lodash": "^4.17.11",
+    "object-hash": "^1.3.1",
+    "react": "^16.6.3",
+    "react-checkbox-tree": "^1.4.1",
+    "react-codemirror2": "^5.1.0",
+    "react-dom": "^16.6.3",
+    "react-redux": "^5.1.1",
+    "react-scripts": "2.1.1",
+    "redux": "^4.0.1",
+    "redux-promise": "^0.6.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "mssql": "^4.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "start-server": "node server/server.js",
+    "start-server-watch": "nodemon server/server.js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
